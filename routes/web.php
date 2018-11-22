@@ -33,3 +33,6 @@ Route::get('money', function () {
 
 Route::get('/sms','TestController@messageView');
 Route::post('/sms', 'TestController@sendMessage');
+
+Route::post('/airtime','TestController@sendAirtime');
+Route::post('/checkout','TestController@checkout');
