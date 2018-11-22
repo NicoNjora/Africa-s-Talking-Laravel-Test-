@@ -29,7 +29,7 @@
 
             <fieldset class="form-group">
                 <div class="row">
-                <legend class="col-form-label col-sm-4 pt-0">Radios</legend>
+                <legend class="col-form-label col-sm-4 pt-0">Currency</legend>
                 <div class="col-sm-8">
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="currencyCode" id="KES" value="KES" checked>
