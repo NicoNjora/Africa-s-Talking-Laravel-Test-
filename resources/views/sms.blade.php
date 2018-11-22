@@ -10,7 +10,7 @@
     
 
     <div class="container align-items-center justify-content-center">
-        <form method="post"action="/test" enctype="application/x-www-form-urlencoded" style="text-align: center;">
+        <form method="post" action="/sms" enctype="application/x-www-form-urlencoded" style="text-align: center;">
         {{csrf_field()}}
                 
             <div class="form-group row">
@@ -36,7 +36,7 @@
             <div class="form-group row">    
                 <label for="recipient" class="col-sm-4 col-form-label">Recipient of message:</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="recipient" name="recipient" placeholder="+2547********"><br><br>
+                    <input type="text" class="form-control" id="recipient" name="recipients" placeholder="+2547********"><br><br>
                 </div>
             </div>
                 <button class="btn btn-primary" type="submit"> Send Message</button> 
